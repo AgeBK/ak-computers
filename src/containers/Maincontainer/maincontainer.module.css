@@ -1,0 +1,24 @@
+.container {
+  padding: 20px 0;
+  max-width: 970px;
+  margin: 0 auto;
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+
+.container h1 {
+  font-size: 48px;
+  margin: 0px;
+}
+
+.container h1 span {
+  color: #2884ab;
+  font-weight: normal;
+}
+
+/* TODO: Rendering weirdly */
+
+.img {
+  height: 75px;
+  width: 75px;
+}

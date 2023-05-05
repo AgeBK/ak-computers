@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import MainContainer from "./containers/Maincontainer";
+import Home from './components/Home'
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -15,11 +17,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Reactx
         </a>
       </header>
     </div>
   );
 }
 
-export default App;
+export default MainContainer(App);
